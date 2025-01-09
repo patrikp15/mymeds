@@ -1,0 +1,20 @@
+.userMedicationList {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 3.2rem 3.2rem 3.2rem;
+  gap: 2.4rem;
+}
+
+.emptyListContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2.4rem 3.2rem;
+}
+
+.emptyList {
+  font-size: 3rem;
+}

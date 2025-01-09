@@ -1,0 +1,163 @@
+.headerContainer {
+  width: 100%;
+  padding: 0.8rem 0.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem;
+}
+
+.logoHeader {
+  font-size: 3rem;
+}
+
+.menuIcon {
+  font-size: 5rem !important;
+  cursor: pointer;
+  padding: 0.8rem;
+  border-radius: 50%;
+
+  transition: background-color 0.4s ease;
+}
+
+.menuIcon:hover {
+  background-color: rgba(221, 221, 221, 0.5);
+}
+
+.logoutContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem;
+}
+
+.containerOpen {
+  width: 100%;
+  padding: 1.6rem 2.4rem 0 2.4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem;
+}
+
+.containerClosed {
+  width: 100%;
+  padding: 1.6rem 2.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.addBtnContainer {
+  width: 100%;
+  padding: 1.2rem 2.4rem;
+  background: linear-gradient(135deg, #f94d5b, #ff6e5c, #ff9265);
+  border-radius: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+  box-shadow: 0 0.4rem 0.8rem rgba(0, 0, 0, 0.2),
+    0 0.2rem 0.4rem rgba(0, 0, 0, 0.15);
+
+  transition: all 0.4s ease;
+}
+
+.addBtnContainer:hover {
+  background: linear-gradient(135deg, #ff6e5c, #ff9265, #ffd27f);
+}
+
+.addIcon {
+  font-size: 3rem !important;
+  border-radius: 1rem;
+  color: #002245;
+}
+
+.addBtn {
+  text-decoration: none;
+  color: #002245;
+  font-size: 2rem;
+}
+
+.contentContainer {
+  width: 100%;
+  min-height: 100%;
+  justify-self: center;
+}
+
+.menuContainer {
+  border-radius: 3rem;
+  margin-bottom: 1.6rem;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  opacity: 1;
+  pointer-events: auto;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.menuContainerHide {
+  position: absolute;
+  top: -100%;
+  left: 0;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(-100%);
+}
+
+.nav {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.navList {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.navList li {
+  height: 100%;
+  width: 100%;
+  padding: 1.6rem 3.2rem;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.4rem;
+
+  transition: all 0.4s ease;
+}
+
+.activeLink {
+  background-color: #002245;
+}
+
+.navIcon {
+  font-size: 3rem !important;
+  color: #f5f5f5;
+}
+
+.link {
+  height: 100%;
+  width: 100%;
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 600;
+  border-radius: 3rem;
+  color: #f5f5f5;
+}

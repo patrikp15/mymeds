@@ -1,0 +1,6 @@
+server:
+  address: ${SERVER_ADDRESS:localhost}
+mymeds:
+  url:
+    api-gateway-base-url: http://${MY_ADDRESS}:8000
+    fe-base-url: http://${MY_ADDRESS}:3000

@@ -1,0 +1,36 @@
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.4rem;
+}
+
+.label {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #334e6a;
+}
+
+.inputContainer {
+  width: 100%;
+  padding: 0 0.4rem 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ccc;
+  border: 1px solid #888;
+  border-radius: 1rem;
+  overflow: hidden;
+  gap: 0.8rem;
+}
+
+.input {
+  width: 100%;
+  border: none;
+  padding: 0.4rem 0.8rem;
+
+  background-color: #ccc;
+  font-size: 1.6rem;
+  color: #002245;
+}

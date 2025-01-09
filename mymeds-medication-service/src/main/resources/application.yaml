@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: MyMeds Medication Service
+    devtools:
+      add-properties: false
+    jpa:
+      open-in-view: false
+server:
+  servlet:
+    context-path: /api/v1
+  port: 8030
+
+share:
+  pdf:
+    text-max-limit: 50
+    default-text: Lieky, ktoré užívam.
+    a4-font-size: 18
+    mobile-font-size: 6
+  qr:
+    default-size: 200
+    mobile-size: 80
+#    expiration in days
+    expiration: 90

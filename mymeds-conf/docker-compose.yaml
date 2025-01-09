@@ -1,0 +1,91 @@
+services:
+  mymeds-api-gateway:
+    env_file:
+      - .env
+    build:
+      context: ../mymeds-api-gateway
+      args:
+        SPRING_PROFILES_ACTIVE: ${SPRING_PROFILES_ACTIVE}
+        SERVER_ADDRESS: ${SERVER_ADDRESS}
+        MY_ADDRESS: ${MY_ADDRESS}
+    image: api-gateway
+    ports:
+      - '8000:8000'
+      - '5004:5004'
+    depends_on:
+      - mymeds-auth-service
+      - mymeds-user-service
+      - mymeds-medication-service
+  mymeds-auth-service:
+    env_file:
+      - .env
+    build:
+      context: ../mymeds-auth-service
+      args:
+        SPRING_PROFILES_ACTIVE: ${SPRING_PROFILES_ACTIVE}
+        SERVER_ADDRESS: ${SERVER_ADDRESS}
+    image: auth-service
+    ports:
+      - '8010:8010'
+      - '5006:5006'
+    volumes:
+      - ${MYMEDS_WORKSPACE}/DB:/app/db
+    depends_on:
+      - mymeds-user-service
+  mymeds-user-service:
+    env_file:
+      - .env
+    build:
+      context: ../mymeds-user-service
+      args:
+        SPRING_PROFILES_ACTIVE: ${SPRING_PROFILES_ACTIVE}
+        SERVER_ADDRESS: ${SERVER_ADDRESS}
+    image: user-service
+    ports:
+      - '8020:8020'
+      - '5005:5005'
+    volumes:
+      - ${MYMEDS_WORKSPACE}/DB:/app/db
+  mymeds-medication-service:
+    env_file:
+      - .env
+    build:
+      context: ../mymeds-medication-service
+      args:
+        SPRING_PROFILES_ACTIVE: ${SPRING_PROFILES_ACTIVE}
+        SERVER_ADDRESS: ${SERVER_ADDRESS}
+        MY_ADDRESS: ${MY_ADDRESS}
+    image: medication-service
+    ports:
+      - '8030:8030'
+      - '5007:5007'
+    volumes:
+      - ${MYMEDS_WORKSPACE}/DB:/app/db
+  mymeds-notification-service:
+    env_file:
+      - .env
+    build:
+      context: ../mymeds-notification-service
+      args:
+        SPRING_PROFILES_ACTIVE: ${SPRING_PROFILES_ACTIVE}
+        SERVER_ADDRESS: ${SERVER_ADDRESS}
+        MY_ADDRESS: ${MY_ADDRESS}
+    image: notification-service
+    ports:
+      - '8040:8040'
+      - '5008:5008'
+  mymeds-fe-app:
+    image: mymeds-fe-app
+    ports:
+      - '3000:3000'
+    volumes:
+      - ${MYMEDS_WORKSPACE}/mymeds-fe-app/src:/app/src
+    environment:
+      - WATCHPACK_POLLING=true
+    stdin_open: true
+    tty: true
+    depends_on:
+      - mymeds-api-gateway
+      - mymeds-auth-service
+      - mymeds-user-service
+      - mymeds-medication-service

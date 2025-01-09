@@ -1,0 +1,10 @@
+.highlightBtn {
+  width: 100%;
+  background: linear-gradient(135deg, #f94d5b, #ff6e5c, #ff9265);
+  color: #fff;
+}
+
+.highlightBtn:hover,
+.highlightBtn:active {
+  background: linear-gradient(135deg, #ff6e5c, #ff9265, #ffd27f);
+}

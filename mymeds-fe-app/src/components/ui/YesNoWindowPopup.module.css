@@ -1,0 +1,59 @@
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* width: 80%; */
+  /* height: 80%; */
+
+  background: linear-gradient(135deg, #f94d5b, #ff6e5c, #ff9265);
+  border-radius: 2rem;
+  z-index: 999;
+
+  padding: 2.4rem 3.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.textContainer p {
+  font-size: 2rem;
+}
+
+.textContainer span {
+  font-weight: 900;
+}
+
+.btnContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem;
+}
+
+.btn {
+  text-decoration: none;
+  border: none;
+  border-radius: 1rem;
+  padding: 0.8rem 2.4rem;
+  width: 100%;
+  font-size: 1.8rem;
+  font-weight: 600;
+  cursor: pointer;
+  background-color: #ddd;
+
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #eee;
+}

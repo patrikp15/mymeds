@@ -1,0 +1,51 @@
+NAME,DESCRIPTION,ROUTE,DOSE,FREQUENCY,DESCRIPTION
+Paracetamol,Používa sa na zmiernenie bolesti a horúčky,ORAL,500mg,2x denne,Možno užívať s jedlom alebo bez jedla
+Ibuprofen,Proti zápalom a na úľavu od bolesti,ORAL,400mg,3x denne,Užívajte s jedlom pre lepšie vstrebávanie
+Amoxicillin,Antibiotikum na bakteriálne infekcie,ORAL,500mg,3x denne,Dokončite celú liečbu podľa predpisu
+Omeprazole,Redukuje žalúdočnú kyselinu,ORAL,20mg,1x denne,Užívajte 30 minút pred jedlom
+Lisinopril,Na vysoký krvný tlak,ORAL,10mg,1x denne,Užívajte každý deň v rovnakom čase
+Metformin,Na cukrovku 2. typu,ORAL,500mg,2x denne,Užívajte s jedlom na zníženie žalúdočných ťažkostí
+Atorvastatin,Redukuje cholesterol,ORAL,10mg,1x denne,Užívajte s vodou
+Salbutamol,Na astmu a problémy s dýchaním,INHALATION,1-2 nádychy,Podľa potreby,Použite spacer pre lepšiu aplikáciu
+Insulin Glargine,Inzulín s dlhodobým účinkom na cukrovku,INJECTION,10 jednotiek,1x denne,Aplikujte
+Warfarin,Proti zrážaniu krvi na prevenciu zrazenín,ORAL,5mg,1x denne,Užívajte každý deň v rovnakom čase
+Losartan,Na vysoký krvný tlak,ORAL,50mg,1x denne,Možno užívať s jedlom alebo bez jedla
+Levothyroxine,Na hypotyreózu,ORAL,100mcg,1x denne,Užívajte na lačno
+Aspirin,Na úľavu od bolesti a zrážanie krvi,ORAL,75mg,1x denne,Užívajte s plným pohárom vody
+Metoprolol,Na srdcové choroby,ORAL,50mg,2x denne,Užívajte s jedlom, aby ste predišli závratom
+Prednisolone,Proti zápalom,ORAL,5mg,3x denne,Užívajte po jedle
+Ranitidine,Redukuje žalúdočnú kyselinu,ORAL,150mg,2x denne,Neužívajte alkohol počas užívania
+Furosemide,Diuretikum na zadržiavanie tekutín,ORAL,40mg,1x denne,Užívajte ráno
+Doxycycline,Antibiotikum na infekcie,ORAL,100mg,1x denne,Užívajte s dostatkom vody
+Simvastatin,Redukuje cholesterol,ORAL,20mg,1x denne,Užívajte pred spaním
+Citalopram,Na depresiu,ORAL,20mg,1x denne,Užívajte s plným pohárom vody
+Diazepam,Na úzkosť a záchvaty,ORAL,5mg,2x denne,Užívajte s jedlom
+Clopidogrel,Proti zrážaniu krvi na srdcové problémy,ORAL,75mg,1x denne,Nezdieľajte alebo nerozdrvujte tablety
+Codeine,Na úľavu od bolesti a tlmenie kašľa,ORAL,30mg,Podľa potreby,Účinné len pri silnej bolesti
+Loratadine,Antihistaminikum na alergie,ORAL,10mg,1x denne,Užívajte 1 hodinu pred vystavením alergénom
+Diphenhydramine,Antihistaminikum a pomoc pri spánku,ORAL,25mg,Podľa potreby,Po použití sa neodporúča ovládať stroje
+Alprazolam,Na úzkosť a panické poruchy,ORAL,0.25mg,2x denne,Možno užívať s jedlom alebo bez jedla
+Bisoprolol,Na srdcové choroby,ORAL,5mg,1x denne,Užívajte každý deň v rovnakom čase
+Hydrochlorothiazide,Diuretikum na vysoký krvný tlak,ORAL,25mg,1x denne,Užívajte ráno
+Naproxen,Proti zápalom a na úľavu od bolesti,ORAL,250mg,2x denne,Užívajte po jedle
+Carbamazepine,Na epilepsiu a nervovú bolesť,ORAL,200mg,1x denne,Neužívajte alkohol
+Rivaroxaban,Proti zrážaniu krvi na prevenciu zrazenín,ORAL,10mg,1x denne,Možno užívať s jedlom alebo bez jedla
+Clindamycin,Antibiotikum na infekcie,ORAL,150mg,4x denne,Užívajte s vodou
+Azithromycin,Antibiotikum na bakteriálne infekcie,ORAL,500mg,1x denne,Možno užívať s jedlom alebo bez jedla
+Montelukast,Na astmu a alergie,ORAL,10mg,1x denne,Užívajte večer
+Propranolol,Na srdcové choroby,ORAL,40mg,2x denne,Užívajte každý deň v rovnakom čase
+Gabapentin,Na nervovú bolesť a záchvaty,ORAL,300mg,3x denne,Možno užívať s jedlom alebo bez jedla
+Zolpidem,Na poruchy spánku,ORAL,10mg,Pred spaním,Neužívajte s jedlom
+Olanzapine,Na schizofréniu a bipolárnu poruchu,ORAL,10mg,1x denne,Užívajte podľa pokynov lekára
+Risperidone,Na schizofréniu a podráždenosť,ORAL,1mg,2x denne,Neodporúča sa ovládať stroje
+Aripiprazole,Na bipolárnu poruchu a depresiu,ORAL,5mg,1x denne,Užívajte s jedlom na zníženie nevoľnosti
+Fluticasone,Redukuje zápal (nosový sprej),INHALATION,2 nádychy,1x denne,Použite v oboch nozdrách
+Budesonide,Redukuje zápal (inhalátor),INHALATION,1 nádych,2x denne,Pred použitím pretrepte
+Terbutaline,Na astmu a problémy s dýchaním,INHALATION,1-2 nádychy,Podľa potreby,Použite pri dýchavičnosti
+Enoxaparin,Proti zrážaniu krvi na prevenciu zrazenín,INJECTION,40mg,1x denne,Aplikujte do brucha alebo stehna
+Heparin,Proti zrážaniu krvi na prevenciu zrazenín,INJECTION,5000 jednotiek,2x denne,Aplikujte subkutánne
+Hydrocortisone,Proti zápalom (topické),TOPICAL,Aplikujte tenkú vrstvu,2x denne,Vyhnite sa kontaktu s očami
+Mupirocin,Antibiotikum (topické),TOPICAL,Aplikujte na postihnuté miesto,3x denne,Pred aplikáciou očistite oblasť
+Betamethasone,Proti zápalom (topické),TOPICAL,Aplikujte tenkú vrstvu,1x denne,Nezakrývajte tesným obväzom
+Clotrimazole,Antifungálne na kožné infekcie,TOPICAL,Aplikujte tenkú vrstvu,2x denne,Používajte na čistú suchú pokožku
+Acyclovir,Antivírusové na herpesové infekcie,TOPICAL,200mg,5x denne,Začnite čo najskôr po objavení príznakov

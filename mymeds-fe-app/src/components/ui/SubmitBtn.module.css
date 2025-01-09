@@ -1,0 +1,53 @@
+.submitBtn {
+  text-decoration: none;
+  border: none;
+  border-radius: 1rem;
+  padding: 0.8rem 2.4rem;
+  width: 100%;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  text-align: center;
+
+  transition: background 0.4s ease;
+}
+
+.hidden {
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
+}
+
+.disabled {
+  background-color: #999;
+  pointer-events: none;
+}
+
+.active {
+  background: linear-gradient(135deg, #f94d5b, #ff6e5c, #ff9265);
+}
+
+.active:hover {
+  background: linear-gradient(135deg, #ff6e5c, #ff9265, #ffd27f);
+}
+
+.loader {
+  width: 2rem;
+  height: 2rem;
+  border: 5px solid #fff;
+  border-bottom-color: transparent;
+  border-radius: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

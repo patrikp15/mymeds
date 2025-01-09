@@ -1,0 +1,22 @@
+.container {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: radial-gradient(
+    circle,
+    rgba(0, 51, 102, 0.7),
+    rgba(76, 113, 142, 0.8),
+    rgba(102, 209, 225, 0.8)
+  );
+}
+
+.contentContainer {
+  width: 130rem;
+  min-height: 100vh;
+  padding: 1.6rem 2.4rem;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}

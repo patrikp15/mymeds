@@ -1,0 +1,21 @@
+.input {
+  padding: 1.2rem 1.6rem 0.8rem 0.8rem;
+  border: none;
+  background-color: #002345;
+  border-bottom: 1px #999 solid;
+  font-size: 1.8rem;
+  color: #f5f5f5;
+}
+
+.input::placeholder {
+  color: #999;
+  font-size: 1.8rem;
+}
+
+.input:-webkit-autofill,
+.input:-webkit-autofill:hover,
+.input:-webkit-autofill:focus,
+.input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 1000px #002345 inset !important; /* Large shadow to ensure full coverage */
+  -webkit-text-fill-color: #f5f5f5 !important;
+}

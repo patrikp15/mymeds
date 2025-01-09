@@ -1,0 +1,18 @@
+spring:
+ application:
+  name: MyMeds User Service
+ devtools:
+  add-properties: false
+ jpa:
+  open-in-view: false
+server:
+ servlet:
+  context-path: /api/v1
+ port: 8020
+
+regex:
+ password: ^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[#?!@$%^&*-]).{6,}$
+ email: ^[a-zA-Z0-9_!#$%&'*+/=?^_`{|}~-]+(?:\.[a-zA-Z0-9_!#$%&'*+/=?^_`{|}~-]+)*@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$
+
+jwt:
+ expiration: 900000

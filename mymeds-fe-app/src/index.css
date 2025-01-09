@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap");
+
+/* #002245 font primary */
+/* #334e6a */
+/* #4ab9cd */
+/* #f5f5f5 background primary */
+/* #555 */
+/* #777 */
+/* #999 */
+/* #aaa */
+/* #f94d5b highlight */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+  font-family: "Nunito", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+  font-weight: 400;
+  overflow-x: hidden;
+}
+
+*:focus {
+  outline: none;
+}
+
+body {
+  overflow-x: hidden;
+  overflow-y: auto;
+
+  color: #002245;
+  background-color: #f5f5f5;
+  list-style: none;
+}

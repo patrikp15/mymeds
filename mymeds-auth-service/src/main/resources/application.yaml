@@ -1,0 +1,25 @@
+spring:
+ application:
+  name: MyMeds Auth Service
+ devtools:
+  add-properties: false
+ jpa:
+    open-in-view: false
+server:
+  port: 8010
+  servlet:
+    context-path: /api/v1
+
+regex:
+  password: ^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[#?!@$%^&*-]).{6,}$
+  email: ^[a-zA-Z0-9_!#$%&'*+/=?^_`{|}~-]+(?:\.[a-zA-Z0-9_!#$%&'*+/=?^_`{|}~-]+)*@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$
+
+jwt:
+# 15min
+  expiration: 900000
+#  7days
+  refresh-expiration: 604800000
+#  15min
+  reset-password-expiration: 900000
+#  1day
+  guest-registration-expiration: 86400000

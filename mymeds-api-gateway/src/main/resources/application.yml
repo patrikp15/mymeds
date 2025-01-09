@@ -1,0 +1,11 @@
+spring:
+ application:
+  name: MyMeds API Gateway
+ cloud:
+  config:
+   enabled: false
+
+server:
+ servlet:
+  context-path: /
+ port: 8000

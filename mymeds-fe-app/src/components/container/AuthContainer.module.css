@@ -1,0 +1,56 @@
+.container {
+  background-color: #bfdefa;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4.8rem;
+}
+
+.authContainer {
+  height: 100%;
+  width: 100rem;
+  background-color: #002245;
+  /* background: linear-gradient(135deg, #002245 0%, #00416d 50%, #008080 100%); */
+  box-shadow: 0 0.4rem 0.8rem rgba(0, 0, 0, 0.3),
+    0 0.2rem 0.4rem rgba(0, 0, 0, 0.2);
+  display: grid;
+  overflow: hidden;
+  border-radius: 2rem;
+  gap: 1.2rem;
+}
+
+.authContainerBasic {
+  grid-template-columns: 1fr 1fr;
+}
+
+.authContainerSignup {
+  grid-template-columns: 1fr;
+}
+
+.leftContainer {
+  height: 100%;
+  width: 100%;
+  border-top-right-radius: 3rem;
+  border-bottom-right-radius: 3rem;
+  padding: 0.8rem 1.6rem;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  box-shadow: 0.5rem 0 1.5rem rgba(0, 0, 0, 0.7);
+  background-color: #f5f5f5;
+  overflow: hidden;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+}
+
+.rightContainer {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

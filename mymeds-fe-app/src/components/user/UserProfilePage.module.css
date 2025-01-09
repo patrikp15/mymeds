@@ -1,0 +1,87 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.2rem;
+  padding: 2.4rem 3.2rem;
+  border-radius: 2rem;
+  border-top: 0.7rem solid #ff6e5c;
+}
+
+.formHeader {
+  font-size: 2.4rem;
+  font-weight: 600;
+  color: #002245;
+  margin-bottom: 1.6rem;
+}
+
+.statusContainer {
+  justify-self: flex-start;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  padding: 0.8rem 1.6rem;
+  border-radius: 1rem;
+  font-weight: 600;
+  font-size: 1.6rem;
+}
+
+.formRow1 {
+  align-self: start;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 1fr;
+}
+
+.formRow2 {
+  align-self: start;
+  display: grid;
+  justify-content: center;
+  align-items: flex-end;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.2rem;
+}
+
+.formRow3 {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1.2rem;
+}
+
+.formRow2SpaceBetween {
+  display: grid;
+  justify-content: space-between;
+  align-items: center;
+  grid-template-columns: auto auto;
+  margin-top: 2.4rem;
+}
+
+.guestsBtnContainer {
+  width: 100%;
+  padding: 0.4rem 1.2rem 0.4rem 1.6rem;
+  background: #334e6a;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+  cursor: pointer;
+
+  transition: background 0.3s ease;
+}
+
+.guestsIcon {
+  font-size: 2.4rem !important;
+  border-radius: 1rem;
+  color: #f5f5f5;
+}
+
+.guestsBtn {
+  text-decoration: none;
+  color: #f5f5f5;
+  font-size: 1.6rem;
+}
